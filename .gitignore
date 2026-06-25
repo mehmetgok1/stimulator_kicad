@@ -1,3 +1,53 @@
-*.lck
+# ==============================================================================
+# KiCad Backup, Temporary, and Lock Files
+# ==============================================================================
+*.bak
 *-bak
+*.lck
+*.tmp
+# Modern KiCad autosave/backup files
+*.kicad_pcb-bak
+*.kicad_sch-bak
 _autosave-*
+
+# ==============================================================================
+# Project-Specific Local Settings & Caches
+# ==============================================================================
+# Stores local window positions, active layers, and display settings. 
+# Tracking this creates annoying, constant Git conflicts for active developers.
+*.kicad_prl
+*.kicad_user
+# Local library cache directory used by newer KiCad versions
+/.cache/
+
+# ==============================================================================
+# SPICE Simulation Outputs (ngspice)
+# ==============================================================================
+# Ignores raw simulation data, operating point saves, and temporary netlists
+*.raw
+*.plt
+*.net
+
+# ==============================================================================
+# Output, Manufacturing, and Plugin Generated Files
+# ==============================================================================
+# Standard manufacturing output directory variations
+/[Pp]lots/
+/[Gg]erbers/
+/[Ff]abrication/
+/[Bb]om/
+/[Pp]df/
+
+# Common plugin outputs (e.g., Interactive HTML BOM plugin)
+/*_bom/
+/**/ibom.html
+
+# ==============================================================================
+# System & IDE Clutter
+# ==============================================================================
+# Prevents OS-specific filesystem junk from entering the repository
+.DS_Store
+Thumbs.db
+Desktop.ini
+.history/
+
