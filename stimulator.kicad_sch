@@ -10055,18 +10055,6 @@
 		)
 	)
 	(rectangle
-		(start 263.4996 209.1436)
-		(end 310.5404 244.7544)
-		(stroke
-			(width 0.5)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "036df318-65dc-440d-bac3-266bba6ca01d")
-	)
-	(rectangle
 		(start 325.1708 188.3918)
 		(end 373.9134 234.3912)
 		(stroke
@@ -10091,8 +10079,8 @@
 		(uuid "09632368-47a0-41cf-a39b-75e498fb0792")
 	)
 	(rectangle
-		(start 267.6652 263.779)
-		(end 300.2026 296.7228)
+		(start 181.6354 317.6524)
+		(end 214.1728 350.5962)
 		(stroke
 			(width 0.5)
 			(type default)
@@ -10213,7 +10201,7 @@
 	)
 	(text "Mechanicals"
 		(exclude_from_sim no)
-		(at 270.129 270.256 0)
+		(at 184.0992 324.1294 0)
 		(effects
 			(font
 				(size 3 3)
@@ -10248,19 +10236,6 @@
 			(justify left bottom)
 		)
 		(uuid "769717dd-9c83-474b-b8f3-25e6e11c1f2b")
-	)
-	(text "mmWave Radar"
-		(exclude_from_sim no)
-		(at 272.4404 215.4174 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "773b5743-4580-4ef5-a627-71b6f85118c2")
 	)
 	(text "USB & Battery Management"
 		(exclude_from_sim no)
@@ -11054,16 +11029,6 @@
 	)
 	(wire
 		(pts
-			(xy 292.5572 226.8728) (xy 284.861 226.8728)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ca365c5-674d-4515-9220-8882c2297ae4")
-	)
-	(wire
-		(pts
 			(xy 111.7092 96.2152) (xy 111.7092 98.3996)
 		)
 		(stroke
@@ -11514,16 +11479,6 @@
 	)
 	(wire
 		(pts
-			(xy 292.5572 224.3328) (xy 284.861 224.3328)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2946254d-5227-4305-9d41-7d2936d1c791")
-	)
-	(wire
-		(pts
 			(xy 45.2628 106.68) (xy 45.2628 104.3178)
 		)
 		(stroke
@@ -11911,16 +11866,6 @@
 			(type default)
 		)
 		(uuid "40dbbca2-e5f7-43ac-9734-b9d3e7720fab")
-	)
-	(wire
-		(pts
-			(xy 287.5026 231.9528) (xy 284.861 231.9528)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40e5afd2-c543-41b9-8de0-7fd411bb1cb2")
 	)
 	(wire
 		(pts
@@ -12574,16 +12519,6 @@
 	)
 	(wire
 		(pts
-			(xy 292.5572 229.4128) (xy 284.861 229.4128)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65247231-8a3d-42d2-9ef4-97200942fc9c")
-	)
-	(wire
-		(pts
 			(xy 135.0264 334.8736) (xy 135.0264 334.2386)
 		)
 		(stroke
@@ -12621,16 +12556,6 @@
 			(type default)
 		)
 		(uuid "68e733df-572c-42a1-b071-f35f09e6823b")
-	)
-	(wire
-		(pts
-			(xy 287.5026 235.966) (xy 287.5026 231.9528)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6906a68d-228b-41a3-8210-6bb007dd2212")
 	)
 	(wire
 		(pts
@@ -13674,16 +13599,6 @@
 	)
 	(wire
 		(pts
-			(xy 284.861 234.4928) (xy 290.5252 234.4928)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2aba167-6533-4ed6-856e-70e7eaa04d44")
-	)
-	(wire
-		(pts
 			(xy 54.4576 111.0996) (xy 54.4576 113.4618)
 		)
 		(stroke
@@ -14411,16 +14326,6 @@
 			(type default)
 		)
 		(uuid "cc5f87f2-5065-4877-9bdd-255c1fe31669")
-	)
-	(wire
-		(pts
-			(xy 290.5252 222.25) (xy 290.5252 234.4928)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd1a0982-9bd1-4671-845e-77c2145e4967")
 	)
 	(wire
 		(pts
@@ -16167,30 +16072,6 @@
 			)
 		)
 	)
-	(global_label "mmWave_RX"
-		(shape input)
-		(at 292.5572 226.8728 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "638ceae2-78ec-4627-8569-fc757df40c75")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 307.0327 226.8728 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "SPI_CS"
 		(shape input)
 		(at 113.157 301.7266 180)
@@ -16735,30 +16616,6 @@
 			)
 		)
 	)
-	(global_label "mmWave_TX"
-		(shape input)
-		(at 292.5572 224.3328 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "aa7bb068-e7d0-4c45-8685-92ecde509d60")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 306.7303 224.3328 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "Swclk"
 		(shape input)
 		(at 148.59 165.1 0)
@@ -16772,30 +16629,6 @@
 		(uuid "ae6a92dd-de30-4ed4-b0f1-91443737f573")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 156.8971 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "mmWave_Out"
-		(shape input)
-		(at 292.5572 229.4128 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "af095ec5-9c85-4332-b736-a79e25c0bf3e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 307.7584 229.4128 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17372,8 +17205,8 @@
 			)
 		)
 	)
-	(global_label "Vbat"
-		(shape input)
+	(global_label "VBAT"
+		(shape output)
 		(at 212.2932 43.942 0)
 		(fields_autoplaced yes)
 		(effects
@@ -17384,7 +17217,7 @@
 		)
 		(uuid "e45054a7-be7e-4641-8486-5e272b311e28")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -183.1848 -201.549 0)
+			(at 219.6932 43.942 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17392,6 +17225,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 	)
@@ -19030,147 +18864,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x05_Pin")
-		(at 279.781 229.4128 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "097277c4-6af7-4f39-b006-433d42acc4b9")
-		(property "Reference" "J10"
-			(at 280.416 219.329 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x05_Pin"
-			(at 279.8572 221.742 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "KiCAD_Lib:HLK-LD2410C"
-			(at 279.781 229.4128 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.motorobit.com/hlk-ld2401-24ghz-radar-hareket-algilama-sensoru-modulu"
-			(at 279.781 229.4128 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 279.781 229.4128 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Status" "NA"
-			(at 279.781 229.4128 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Order" "Motorobit"
-			(at 279.781 229.4128 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "SNS.CCM.01.000270"
-			(at 279.781 229.4128 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price @1" "5"
-			(at 279.781 229.4128 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price @1k" "3"
-			(at 279.781 229.4128 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3eb389a9-0fde-4953-8912-ad8fcb746d45")
-		)
-		(pin "1"
-			(uuid "c5eff99f-9537-4975-a498-b4f05eeaae9b")
-		)
-		(pin "4"
-			(uuid "d987a3a9-7850-437b-9ffa-eab52327be8c")
-		)
-		(pin "3"
-			(uuid "86924af5-0caa-4aac-978a-1520a77aff40")
-		)
-		(pin "5"
-			(uuid "3d8b5a7e-1eb9-4839-905c-8a87c7d0fe15")
-		)
-		(instances
-			(project "stimulator"
-				(path "/981b11b4-1e06-4abc-8af4-c29db6f7c308"
-					(reference "J10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 110.363 60.579 0)
 		(unit 1)
@@ -20004,83 +19697,6 @@
 			(project "stimulator"
 				(path "/981b11b4-1e06-4abc-8af4-c29db6f7c308"
 					(reference "#PWR069")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VD")
-		(at 290.5252 222.25 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "12a4476b-710c-4f0c-97bd-b3640cc7e0c5")
-		(property "Reference" "#PWR063"
-			(at 290.5252 226.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VD"
-			(at 290.5252 218.059 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 290.5252 222.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 290.5252 222.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 290.5252 222.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "28f37688-127f-4790-be49-3a4b6f6e888d")
-		)
-		(instances
-			(project "stimulator"
-				(path "/981b11b4-1e06-4abc-8af4-c29db6f7c308"
-					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -23024,7 +22640,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 278.003 290.9824 0)
+		(at 191.9732 344.8558 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23034,7 +22650,7 @@
 		(dnp no)
 		(uuid "31f72295-5bc1-4a36-a152-2bc07c58f160")
 		(property "Reference" "H4"
-			(at 280.543 289.814 0)
+			(at 194.5132 343.6874 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23045,7 +22661,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 280.543 292.1254 0)
+			(at 194.5132 345.9988 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23056,7 +22672,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 278.003 290.9824 0)
+			(at 191.9732 344.8558 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23067,7 +22683,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 278.003 290.9824 0)
+			(at 191.9732 344.8558 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23078,7 +22694,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 278.003 290.9824 0)
+			(at 191.9732 344.8558 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23088,7 +22704,7 @@
 			)
 		)
 		(property "Order" "-"
-			(at 278.003 290.9824 0)
+			(at 191.9732 344.8558 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23099,7 +22715,7 @@
 			)
 		)
 		(property "Part Number" "-"
-			(at 278.003 290.9824 0)
+			(at 191.9732 344.8558 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23110,7 +22726,7 @@
 			)
 		)
 		(property "Price @1" "-"
-			(at 278.003 290.9824 0)
+			(at 191.9732 344.8558 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23121,7 +22737,7 @@
 			)
 		)
 		(property "Price @1k" "-"
-			(at 278.003 290.9824 0)
+			(at 191.9732 344.8558 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23132,7 +22748,7 @@
 			)
 		)
 		(property "Order1" "-"
-			(at 278.003 290.9824 0)
+			(at 191.9732 344.8558 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23143,7 +22759,7 @@
 			)
 		)
 		(property "Part Number1" ""
-			(at 278.003 290.9824 0)
+			(at 191.9732 344.8558 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23154,7 +22770,7 @@
 			)
 		)
 		(property "Status" "NA"
-			(at 278.003 290.9824 0)
+			(at 191.9732 344.8558 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23175,7 +22791,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 277.7998 276.3266 0)
+		(at 191.77 330.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23185,7 +22801,7 @@
 		(dnp no)
 		(uuid "34b88484-b4c5-456f-9815-592a11153418")
 		(property "Reference" "H1"
-			(at 280.3398 275.1582 0)
+			(at 194.31 329.0316 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23196,7 +22812,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 280.3398 277.4696 0)
+			(at 194.31 331.343 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23207,7 +22823,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 277.7998 276.3266 0)
+			(at 191.77 330.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23218,7 +22834,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 277.7998 276.3266 0)
+			(at 191.77 330.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23229,7 +22845,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 277.7998 276.3266 0)
+			(at 191.77 330.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23239,7 +22855,7 @@
 			)
 		)
 		(property "Order" "-"
-			(at 277.7998 276.3266 0)
+			(at 191.77 330.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23250,7 +22866,7 @@
 			)
 		)
 		(property "Part Number" "-"
-			(at 277.7998 276.3266 0)
+			(at 191.77 330.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23261,7 +22877,7 @@
 			)
 		)
 		(property "Price @1" "-"
-			(at 277.7998 276.3266 0)
+			(at 191.77 330.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23272,7 +22888,7 @@
 			)
 		)
 		(property "Price @1k" "-"
-			(at 277.7998 276.3266 0)
+			(at 191.77 330.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23283,7 +22899,7 @@
 			)
 		)
 		(property "Order1" "-"
-			(at 277.7998 276.3266 0)
+			(at 191.77 330.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23294,7 +22910,7 @@
 			)
 		)
 		(property "Part Number1" ""
-			(at 277.7998 276.3266 0)
+			(at 191.77 330.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23305,7 +22921,7 @@
 			)
 		)
 		(property "Status" "NA"
-			(at 277.7998 276.3266 0)
+			(at 191.77 330.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31209,7 +30825,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 277.7998 286.004 0)
+		(at 191.77 339.8774 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -31219,7 +30835,7 @@
 		(dnp no)
 		(uuid "825648fe-5d8c-4217-9b06-74c9e296bfef")
 		(property "Reference" "H3"
-			(at 280.3398 284.8356 0)
+			(at 194.31 338.709 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31230,7 +30846,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 280.3398 287.147 0)
+			(at 194.31 341.0204 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31241,7 +30857,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 277.7998 286.004 0)
+			(at 191.77 339.8774 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31252,7 +30868,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 277.7998 286.004 0)
+			(at 191.77 339.8774 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31263,7 +30879,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 277.7998 286.004 0)
+			(at 191.77 339.8774 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31273,7 +30889,7 @@
 			)
 		)
 		(property "Order" "-"
-			(at 277.7998 286.004 0)
+			(at 191.77 339.8774 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31284,7 +30900,7 @@
 			)
 		)
 		(property "Part Number" "-"
-			(at 277.7998 286.004 0)
+			(at 191.77 339.8774 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31295,7 +30911,7 @@
 			)
 		)
 		(property "Price @1" "-"
-			(at 277.7998 286.004 0)
+			(at 191.77 339.8774 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31306,7 +30922,7 @@
 			)
 		)
 		(property "Price @1k" "-"
-			(at 277.7998 286.004 0)
+			(at 191.77 339.8774 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31317,7 +30933,7 @@
 			)
 		)
 		(property "Order1" "-"
-			(at 277.7998 286.004 0)
+			(at 191.77 339.8774 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31328,7 +30944,7 @@
 			)
 		)
 		(property "Part Number1" ""
-			(at 277.7998 286.004 0)
+			(at 191.77 339.8774 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31339,7 +30955,7 @@
 			)
 		)
 		(property "Status" "NA"
-			(at 277.7998 286.004 0)
+			(at 191.77 339.8774 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34650,7 +34266,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 277.749 281.178 0)
+		(at 191.7192 335.0514 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -34660,7 +34276,7 @@
 		(dnp no)
 		(uuid "9c1ff819-483b-4d3d-b626-ec138f640d59")
 		(property "Reference" "H2"
-			(at 280.289 280.0096 0)
+			(at 194.2592 333.883 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34671,7 +34287,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 280.289 282.321 0)
+			(at 194.2592 336.1944 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34682,7 +34298,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 277.749 281.178 0)
+			(at 191.7192 335.0514 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34693,7 +34309,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 277.749 281.178 0)
+			(at 191.7192 335.0514 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34704,7 +34320,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 277.749 281.178 0)
+			(at 191.7192 335.0514 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34714,7 +34330,7 @@
 			)
 		)
 		(property "Order" "-"
-			(at 277.749 281.178 0)
+			(at 191.7192 335.0514 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34725,7 +34341,7 @@
 			)
 		)
 		(property "Part Number" "-"
-			(at 277.749 281.178 0)
+			(at 191.7192 335.0514 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34736,7 +34352,7 @@
 			)
 		)
 		(property "Price @1" "-"
-			(at 277.749 281.178 0)
+			(at 191.7192 335.0514 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34747,7 +34363,7 @@
 			)
 		)
 		(property "Price @1k" "-"
-			(at 277.749 281.178 0)
+			(at 191.7192 335.0514 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34758,7 +34374,7 @@
 			)
 		)
 		(property "Order1" "-"
-			(at 277.749 281.178 0)
+			(at 191.7192 335.0514 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34769,7 +34385,7 @@
 			)
 		)
 		(property "Part Number1" ""
-			(at 277.749 281.178 0)
+			(at 191.7192 335.0514 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34780,7 +34396,7 @@
 			)
 		)
 		(property "Status" "NA"
-			(at 277.749 281.178 0)
+			(at 191.7192 335.0514 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39136,7 +38752,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cn.bing.com/search?q=datasheet： KSZ9031MNXIC"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C6284809.pdf?spm=wm.sxq.inf.ggs&lcsc_vid=T1kPUQdeQlcPUFAHQ1RXVAZXElNfVgFfEVZfUAEEFVUxVlNeRVRfU1dXTlFcVTtW"
 			(at 119.634 191.643 0)
 			(hide yes)
 			(show_name no)
@@ -43602,82 +43218,6 @@
 			(project "stimulator"
 				(path "/981b11b4-1e06-4abc-8af4-c29db6f7c308"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 287.5026 235.966 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f771a276-4c0b-4d8d-ab6e-6142bc20e940")
-		(property "Reference" "#PWR052"
-			(at 287.5026 242.316 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 287.5026 239.4712 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 287.5026 235.966 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 287.5026 235.966 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 287.5026 235.966 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1c21a5e6-7078-453d-af37-25041afb4fd1")
-		)
-		(instances
-			(project "stimulator"
-				(path "/981b11b4-1e06-4abc-8af4-c29db6f7c308"
-					(reference "#PWR052")
 					(unit 1)
 				)
 			)
